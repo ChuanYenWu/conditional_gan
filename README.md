@@ -15,3 +15,7 @@ spider_crop.ipynb
 * 臉部切割: [lbpcascade_animeface](https://github.com/nagadomi/lbpcascade_animeface)所提供的動漫臉部偵測xml來擷取出圖片中的臉部部分(由於此xml是2011年作成，針對後來演變的畫風、光影或上色方式，可能會有些擷取錯誤的產生，此project沒有進行人工剔除)
 * 取得256x256圖片約3萬8千張，抓取的tag範圍有12種髮色和11種瞳色，其分布可見下方圖表(more than single表示該圖有超過1種的髮色或瞳色tag，此種圖不在抓取範圍內，因此數量為0；no information表示該圖缺少髮色或瞳色tag，只要有其中1類tag就會抓取)
 ![_tag_distribute]()
+
+### GAN模型架構
+採用StackGan層層放大圖像的形式，可參考原作者:[StackGAN](https://github.com/hanzhanggit/StackGAN-Pytorch)和[StackGAN++](https://github.com/hanzhanggit/StackGAN-v2)。
+<br>
