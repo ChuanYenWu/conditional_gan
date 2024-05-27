@@ -1,9 +1,3 @@
-"# conditional_gan" 
-spider_crop
-stackgan_stage1, stage2, stagewhole
-stackgan_util
-test
-
 ## Conditional GAN(Generative Adversarial Network)
 GAN模型能夠透過noise產生圖片，此project將控制部分輸入GAN的變因，透過輸入文字給予生成圖片一些限制(conditional GAN)，達成簡單的text-to-image。
 <br>
