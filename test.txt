@@ -1,0 +1,10 @@
+1,blue hair blue eyes
+2,blue hair green eyes
+3,green hair red eyes
+4,blonde hair purple eyes
+5,pink hair aqua eyes
+6,white hair
+7,yellow eyes
+8,orange hair gray eyes eyepatch
+9,brown hair eyepatch
+10,pink eyes eyepatch
