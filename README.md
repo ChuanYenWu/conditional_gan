@@ -38,3 +38,7 @@ spider_crop.ipynb
 此100張圖中，每一行我們給了1組tag，6~10行跟前5行相比生成結果可能略差，其原因可能有:
 * 該種髮色或瞳色資料量還不足以讓Generator穩定生成，模型本就無法保證將所有random noise都轉為"明顯"的人臉，資料不足的顏色可能使情況加劇。
 * 只給予髮色或瞳色其中一類的資訊(6,7,9,10行)，可能會導致Generator在更大的field中去生成圖片，變異的程度也會增加。
+<br>
+
+### 網頁上呈現
+將stage 1 Generator模型存入Docker Image，並使用簡單的網頁模板呈現出選擇髮色、瞳色來讓模型生成( [網頁連結](https://github.com/ChuanYenWu/Doc_fls "Link") )
