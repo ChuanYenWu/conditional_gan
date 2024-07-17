@@ -3,6 +3,10 @@ GAN模型能夠透過noise產生圖片，此project將控制部分輸入GAN的�
 <br>
 採用動漫人物人臉(Anime Face)，輸入的文字條件包含髮色、瞳色(hair, eyes)
 
+### README.md
+[中文](/README.md "link")<br>
+[English](/README.en.md "link")<br>
+
 ### 資料準備
 spider_crop.ipynb
 <br>
