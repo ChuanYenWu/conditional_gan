@@ -4,6 +4,10 @@ and by inputting text, it will impose some restrictions on the generated images 
 <br>
 Anime Face is used, and the text conditions for input include hair color and eye color.
 
+### README.md
+[中文](/README.md "link")<br>
+[English](/README.en.md "link")<br>
+
 ### Data Preparation
 spider_crop.ipynb
 <br>
